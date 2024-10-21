@@ -19,7 +19,11 @@ export function Post() {
         <p>Eae pessoal!!</p>
         <p>Esse é um site desenvolvido utilizando o React para aprender os conceitos dessa tecnologia</p>
         <p>Entre em contato comigo! <a href="">https://www.linkedin.com/in/kauabraccio/</a></p>
-        <p><a href="">#novoprojeto #react #fullstack</a></p>
+        <p>
+          <a href="">#novoprojeto</a>{' '}
+          <a href="">#react</a>{' '}
+          <a href="">#fullstack</a>
+        </p>
       </div>
     </article>
   )
