@@ -1,0 +1,38 @@
+textarea {
+  width: 47rem;
+  height: 6rem;
+  border-radius: .5rem;
+  background-color: #121214;
+  border-color: #121214;
+  color: white;
+  text-align: left;
+  margin: 1rem 0px 1rem 0px;
+  padding: 1rem;
+}
+
+textarea:hover {
+  border-color: #00B37E;
+}
+
+.button {
+  width: 7rem;
+  height: 3rem;
+  border-radius: .5rem;
+  background-color: #00875F;
+  text-align: center;
+  align-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: none;
+  background: #00875F;
+  color: white;
+  outline: none;
+}
+
+footer {
+  margin-top: 1.5rem;
+  padding-block: 1.5rem;
+  border-top: 1px solid var(--gray-600);
+}

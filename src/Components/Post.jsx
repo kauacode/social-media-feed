@@ -1,4 +1,5 @@
 import styles from './Post.module.css';
+import { Comment } from './Comment';
 
 export function Post() {
   return (
@@ -25,6 +26,7 @@ export function Post() {
           <a href="">#fullstack</a>
         </p>
       </div>
-    </article>
+      <Comment></Comment>
+    </article >
   )
 }

@@ -4,8 +4,8 @@
   padding: 2.5rem;
 }
 
-.post + .post {
-  margin-top: 2rem; 
+.post+.post {
+  margin-top: 2rem;
 }
 
 .content {
@@ -24,17 +24,17 @@
   text-decoration: none;
 }
 
-.content a:hover{
+.content a:hover {
   color: var(--green-300);
 }
 
-.post > header {
+.post>header {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.post > header time {
+.post>header time {
   font-size: 0.875rem;
   color: var(--gray-400);
 }
@@ -59,7 +59,7 @@
   line-height: 1.6;
 }
 
-.authorInfo span{
+.authorInfo span {
   display: block;
   font-size: 0.875rem;
   color: var(--gray-400);
